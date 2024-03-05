@@ -12,9 +12,13 @@ public class MainConfiguracion {
    
     public static void main(String[] args) {
         
+        //Crea una instancia de la clase Configuracion
         Configuracion configuracion = new Configuracion();
+        
+        // Cargar la configuración llamando al método cargarConfiguracion() de la instancia configuracion
         configuracion.cargarConfiguracion();
-    
+        
+        // Salvar la configuración llamando al método salvarConfiguracion() de la instancia configuracion
         configuracion.salvarConfiguracion();
     }
 }
